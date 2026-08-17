@@ -1,0 +1,25 @@
+
+AIM OF PROJECT
+To find patterns that are associated with low and high risk credits and make recommendations 
+
+
+FINAL REPORTS ON CUSOMERS FEATURES AS IT RELATE TO THE CREDIT RISK
+All the features are group into the followig: 
+
+1. APILLICANT INFORMATION PROFILE
+Among the three demographic features examined, gender and education show some observable differences across risk categories, while family status shows little meaningful variation. Male customers and customers with secondary education are relatively more represented among high-risk customers, whereas female customers and those with higher education are relatively more represented among low-risk customers. However, the weak Cramer's V values indicate that these features have limited association with credit risk and should not be considered strong risk discriminators on their own.
+
+2.EMPLOYMENT AND INCOME
+Employment and income-related characteristics are statistically significantly associated with credit risk; however, the strength of these associations is weak. Working customers, laborers, drivers, and customers associated with Business Entity Type 3 and self-employed organizations are relatively more represented in the high-risk group. In contrast, pensioners, accountants, managers, core staff, and high-skill technical workers are relatively more represented among low-risk customers. Nevertheless, the low Cramér's V values for employment type (0.059), occupation type (0.040), and organization type (0.062) indicate that these features have limited ability to distinguish between low- and high-risk customers individually. Overall, employment and income characteristics provide some observable patterns in customer risk profiles, but they are weak risk discriminators when considered independently.
+
+3. ASSET AND WEALTH 
+Asset and wealth-related characteristics, including car ownership, real estate ownership, and housing type, are statistically significantly associated with credit risk; however, all three features show very weak associations. Customers who do not own a car are relatively more represented in the high-risk group, while car owners are slightly more represented among low-risk customers. In contrast, real estate ownership shows almost identical distributions across the risk categories, indicating little meaningful difference between low- and high-risk customers. Housing type also shows limited variation across risk groups, with customers living in houses or apartments constituting the majority of all risk categories. Although customers living with their parents are relatively more represented in the medium-risk group, this difference does not indicate a strong risk pattern. Overall, asset and wealth-based features provide limited ability to distinguish between low- and high-risk customers, as reflected by their 
+very low Cramér's V values.
+
+4 LOAN CHARACTERISTICS 
+Loan characteristics show some variation across credit risk categories, although the available evidence suggests that their ability to distinguish between risk groups is limited for some features. Cash loans dominate across all risk categories, accounting for more than 90% of contracts, with their proportion increasing slightly from 90.68% among low-risk customers to 94.28% among high-risk customers. However, the small difference and very weak Cramér's V (0.0321) indicate that contract type has limited practical importance in distinguishing customer risk. The median number of payments also remains relatively similar across the risk groups, showing no clear relationship with risk. In contrast, the median value of days from the first due date to the last due date (DLDV) is substantially higher among medium- and high-risk customers than among low-risk customers, suggesting that loan due-date characteristics may provide a more noticeable distinction between risk groups.
+
+
+RECOMMENDATION
+
+The analysis identified several patterns associated with low- and high-risk customers; however, the strength of these associations was generally weak. Therefore, these characteristics should be used as supporting indicators rather than standalone criteria for assessing credit risk. Customers with characteristics relatively more represented in the high-risk group, such as males, customers with secondary education, working customers, laborers, and customers without cars, may warrant additional attention during risk assessment. Conversely, characteristics more represented among low-risk customers, such as higher education, female gender, and pensioner status, may provide supporting evidence of a lower-risk profile. However, these characteristics should be considered alongside other financial and behavioral information rather than used independently to make lending decisions.
