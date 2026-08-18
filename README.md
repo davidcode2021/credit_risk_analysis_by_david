@@ -50,3 +50,20 @@ The identified characteristics should be treated as **supporting indicators rath
 ## Conclusion
 
 The analysis identified several characteristics associated with different customer risk profiles. However, no individual feature demonstrated a strong association with risk level. The findings provide useful insights into the characteristics of low- and high-risk customers while highlighting the importance of considering multiple factors when assessing credit risk.
+
+
+## Data Source
+
+The datasets used in this project were obtained from the following Kaggle dataset:
+
+**Source:** [Credit Analysis Dataset – Kaggle](https://www.kaggle.com/datasets/kapoorshivam/credit-analysis/data)
+
+The project uses two main datasets:
+
+- **Current application data**
+- **Previous application data**
+
+The two raw datasets are relatively large and were therefore **not uploaded to this GitHub repository** due to file-size limitations. Instead, the original datasets can be accessed through the Kaggle source provided above.
+
+The cleaned and processed data used for the analysis was generated from these original datasets through the data preparation, feature engineering, and data integration steps described in this project.
+
